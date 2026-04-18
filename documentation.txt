@@ -1,0 +1,26 @@
+Name: GOKULAKRISHNAN G S
+Date of Submission: 08/02/2026
+Project Title: MP3 TAG READER AND EDITOR
+Description: The MP3 Tag Reader and Editor project is a console-based application written in the C programming language
+             that works with ID3v2 metadata present in MP3 files. ID3 tags store descriptive information about audio files
+             such as song title, artist name, album name, year of release, genre, and comments.
+
+                        ----------------------------For View Part---------------------------------
+Sample Input: ./a.out -v sample.mp3.mpeg
+Sample Output: ---------------------SELECTED VIEW DETAILS---------------------
+                    TITLE: Sunny Sunny - Yo Yo Honey Singh - [SongsPk.CC]
+                    ARTIST: Yo Yo Honey Singh - [SongsPk.CC]
+                    ALBUM: Yaariyan
+                    YEAR: 2013
+                    MUSIC: Bollywood Music - [SongsPk.CC]
+                    COMPOSER: eng
+
+                    ----------------------------------------------------
+
+                    ---------------------DETAILS DISPLAYED---------------------
+                    View Part Successfully Completed
+
+                        ----------------------------For Edit Part---------------------------------
+Sample Input: ./a.out -e -t "Song" sample.mp3.mpeg
+Sample Output: Editing frame TIT2...
+               Edit part Completed Successfully
